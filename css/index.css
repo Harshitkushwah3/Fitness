@@ -99,6 +99,7 @@ h1::after {
   ); */
   background-image: url(/images/backg.jpg);
   background-size: 100% 100%;
+  
   background-repeat: no-repeat;
   height: 960px;
   margin-top: 0px;
