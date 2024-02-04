@@ -2,7 +2,16 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" href="./index.css">
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <link rel="icon" type="image/png" sizes="48x48" href="/images/Fitness Elite_favicon.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/images/Fitness Elite_favicon.png">
+    <link rel="icon" type="image/png" sizes="144x144" href="/images/Fitness Elite_favicon.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/images/Fitness Elite_favicon.png">
+    <link rel="icon" type="image/png" sizes="256x256" href="/images/Fitness Elite_favicon.png">
+    <link rel="icon" type="image/png" sizes="384x384" href="/images/Fitness Elite_favicon.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="/images/Fitness Elite_favicon.png">  
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/index.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,33 +21,40 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" >
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script src="https://use.fontawesome.com/d416e09bd8.js"></script>
+    <script src="https://kit.fontawesome.com/b70d731558.js" crossorigin="anonymous"></script>
     <style>
         #load{
-	height: 100vh;
-	width: 100%;
-	position: fixed;
-	background: white url(/images/Spin-Preloader-1.gif) no-repeat center;
-	z-index: 9999999;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    background: white url(/images/Spin-Preloader-1.gif) no-repeat center;
+    z-index: 9999999;
     }
     .font{
         font-family: 'Merriweather', serif;
     }
     </style>
 </head>
-<body onload="myfunction()" style="background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(26,25,37,1) 35%, rgba(0,255,179,1) 100%);">
+<body onload="myfunction()">
     <div id="load"></div>
     <!-- navbar section -->
+    
     <nav style="background-color: rgb(40,43,40);" class= " flex bg-black  text-white sticky top-0">
-        <h2 class="m-5  text-4xl">Fitness<h2  class="text-purple-800 mt-5 -ml-5 text-4xl"spna style="color: Blue;">Elite</h2></h2>
+        <a href="./index.html" style="text-decoration: none; color: inherit">
+            <div class="logo" style="align-content: center; padding:10px;"> <i class="fa-solid fa-dumbbell"></i> Fitness<span style="color: blue">Elite</span></div>
+          </a>
         <ul class=" flex flex-row items-center ml-auto space-x-14 mx-auto text-xl">
             <li class="cursor-pointer hover:text-pink-700"> <a href="./index.html"> Home</a></li >
             <li class="cursor-pointer hover:text-pink-700"><a href="./about.html">About</a></li >
-            <li class="cursor-pointer hover:text-pink-700"><a href="./index.html"></a>News</a></li >
-            <li class="cursor-pointer hover:text-pink-7000"><a href="./contact.html"></a>Contact</a></li >
+            <li class="cursor-pointer hover:text-pink-700"><a href="#">News</a></li >
+            <li class="cursor-pointer hover:text-pink-700"><a href="contact.html">Contact</a></li >
         </ul>
         <button style="background-color: rgb(128,0,128);" class=" bg-purple-800  rounded-md  p-2 m-5  transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300 ">Become a member</button>
     </nav>
+
 
 
     <h2 style="text-decoration: underline; font-family: 'Merriweather', serif; font-size: 3em;" class="text-start text-white font-serif text-3xl font-semibold w-72 h rounded-lg mt-10 ml-10 p-3 ">Cardio</h2>
@@ -50,8 +66,8 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(26,25,37,1) 35%, rgba
             <img src="./images/jog.gif" alt="">
         </div>
     <ul class="m-10 text-xl bg-grey-500 rounded-md">
-        <li class=" font text-white h-12 p-3 "> 1. Bounce lightly from one foot to the other.</li>
-        <li class=" font text-white h-12 p-2">  2. At the same same, swing the arms from side to side</li>
+        <li class=" font text-white h-12 p-3 " style="color: black;"> 1. Bounce lightly from one foot to the other.</li>
+        <li class=" font text-white h-12 p-2"style="color: black;">  2. At the same same, swing the arms from side to side</li>
     </ul>
     </div>
 
@@ -63,9 +79,9 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(26,25,37,1) 35%, rgba
             <img src="./images/junp.gif" alt="">
         </div>
     <ul class="m-10 text-xl bg-grey-500 rounded-md">
-        <li class=" font text-white h-12 p-3"> 1. The air jump rope requires a person to “swing” an imaginary jump rope in the air.</li>
-        <li class=" font text-white h-12 p-2">  2. To perform, stand with the feet together and jump up and down while swinging the arms in a circular direction.</li>
-        <li class=" font text-white h-12 p-2"> 3. Remember to not go beyond your limit.</li>
+        <li class=" font text-white h-12 p-3"style="color: black;"> 1. The air jump rope requires a person to “swing” an imaginary jump rope in the air.</li>
+        <li class=" font text-white h-12 p-2"style="color: black;">  2. To perform, stand with the feet together and jump up and down while swinging the arms in a circular direction.</li>
+        <li class=" font text-white h-12 p-2"style="color: black;"> 3. Remember to not go beyond your limit.</li>
     </ul>
     </div>
 
@@ -78,8 +94,8 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(26,25,37,1) 35%, rgba
             <img src="./images/air hand.gif" alt="">
         </div>
     <ul class="m-10 text-xl bg-grey-500 rounded-md">
-        <li class=" font text-white h-12 p-3 "> 1. Rotate the arms in a circular motion, both clockwise and counterclockwise. The movement may resemble a butterfly or backstroke.</li>
-        <li class=" font text-white h-12 p-2">  2. If a person has limited mobility in their arms, they can extend their arms to their sides and draw small circles.</li>
+        <li class=" font text-white h-12 p-3 "style="color: black;"> 1. Rotate the arms in a circular motion, both clockwise and counterclockwise. The movement may resemble a butterfly or backstroke.</li>
+        <li class=" font text-white h-12 p-2"style="color: black;">  2. If a person has limited mobility in their arms, they can extend their arms to their sides and draw small circles.</li>
     </ul>
     </div>
     
@@ -89,9 +105,9 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(26,25,37,1) 35%, rgba
             <img src="./images/jumping jacks.gif" alt="">
         </div>
     <ul class="m-10 text-xl bg-grey-500 rounded-md">
-        <li class=" font text-white h-12 p-3"> 1. Begin with the feet hip-width apart and arms down.</li>
-        <li class=" font text-white h-15 p-2">  2. Raise the arms out to the sides, straight in the air while jumping out with the feet apart.</li>
-        <li class=" font text-white h-12 p-2"> 3. Jump back into the starting position and land softly on the balls of the feet, bringing the arms back into the body.</li>
+        <li class=" font text-white h-12 p-3"style="color: black;"> 1. Begin with the feet hip-width apart and arms down.</li>
+        <li class=" font text-white h-15 p-2"style="color: black;">  2. Raise the arms out to the sides, straight in the air while jumping out with the feet apart.</li>
+        <li class=" font text-white h-12 p-2"style="color: black;"> 3. Jump back into the starting position and land softly on the balls of the feet, bringing the arms back into the body.</li>
         
     </ul>
 
