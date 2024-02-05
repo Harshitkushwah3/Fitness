@@ -244,6 +244,21 @@ h1::after {
   font-family: "Montserrat";
   z-index: 10;
   text-align:justify;
+  background: linear-gradient(
+    90deg,
+    #e1306c,
+    aquamarine,
+    #ff00c4,
+    springgreen,
+    #e1306c
+  );
+  font-weight: 900;
+  font-style: oblique;
+  background-size: 400%;
+  letter-spacing: 2px;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  animation: animate 20s linear infinite;
 }
 .butns {
   background: purple;
