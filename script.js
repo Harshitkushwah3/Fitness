@@ -1,10 +1,11 @@
+/* for navbar toggle button */
 const toggleBtn = document.getElementsByClassName("toggle-button")[0];
 const navBar = document.getElementsByClassName("navbar")[0];
 
 toggleBtn.addEventListener("click", () => {
   navBar.classList.toggle("active");
 });
-
+/* for faq section */
 $(function () {
   $(".accordion")
     .find(".accordion__title")
@@ -15,7 +16,7 @@ $(function () {
       $(".accordion__title").not($(this)).removeClass("active");
     });
 });
-
+/* for pricing */
 const wrapper = document.querySelector(".wrapper");
 const indicators = [...document.querySelectorAll(".indicators button")];
 let currentTestimonial = 0;
