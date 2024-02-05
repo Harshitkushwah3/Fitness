@@ -259,6 +259,7 @@ h1::after {
   -webkit-background-clip: text;
   animation: animate 15s linear infinite;
 }
+
 .butns {
   background: purple;
   color: #fff;
